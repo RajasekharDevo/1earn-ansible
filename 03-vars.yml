@@ -47,4 +47,4 @@
   hosts: all
   tasks:
     - name: Run uptime shell command
-      ansible:builtin.shell: uptime
+      ansible.builtin.shell: uptime
